@@ -1,0 +1,15 @@
+parei no min 1.25
+
+npm install express sequelize mysql --save
+npm install -D sequelize-cli
+npm install nodemon -D
+
+Fazer o mvc basico e conexao com banco de dados.
+
+Comecar com as migrations
+
+npx sequelize migration:create --name=create-tablename
+npx sequelize db:migrate
+npx sequelize db:migrate:undo
+
+

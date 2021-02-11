@@ -1,0 +1,10 @@
+Criacao de um novo cadastro.
+
+1. Criar a pessoa e seu tipo. Poucos dados serao pedidos aqui. (nome)
+2. Apos confirmar a criacao da pessoa e seu tipo, o usuario sera redirecionado para a segunda parte do cadastro.
+3. Nesta etapa, informacoes como: endereco, telefone, rg, cpf, email se tiver (obrigatorio para professores, gestores e qualquer usuario com poder de CRUD).
+4. Apos finalizacao da etapa anterior, o usuario sera redirecionado para o preenchimento de informacoes obrigatorias como e especificas de cada usuario, como ra no caso
+	de ser um aluno, ou a(s) materias que este da aula se for um professor.
+5. Cadastro concluido.
+
+Obs. As rotas para criacao de uma pessoa, seja ela aluno, professor, gestor, func adm, terceirizados e responsaveis deverao ter como origem a rota /pessoas.

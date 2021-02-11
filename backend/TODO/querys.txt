@@ -1,0 +1,3 @@
+SELECT p.id, categorias.categoria, p.nome
+from pessoas as p
+join categorias on p.categoria_id = categorias.id;
